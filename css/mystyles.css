@@ -1,20 +1,53 @@
-.mainbody{
+body{
     background-color: rgb(170, 170, 170);
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
     border: 5px solid rgb(0, 0, 43);
+    text-align: center;
     margin: 20px;
     padding: 20px;
 }
 
-.navbar{
-    font-style: bold;
-    text-align: right;
+.navbar a{
+    font-weight: bold;
+    text-align: center;
     padding: 15px;
     color: white;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 .header{
     background-color: rgb(0, 0, 43);
     
+}
+
+h1{
+    font-weight: bold;
+}
+img{
+    width: 600px;
+}
+
+.tableauPlaceholder{
+    margin: 0 auto !important;
+}
+
+.mission-images{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.list-container ul, .list-container ol{
+    display: inline-block;
+    text-align: left;
+}
+
+.list-container{
+    text-align: center;
+}
+
+ul > li{
+    font-weight: bold;
 }
